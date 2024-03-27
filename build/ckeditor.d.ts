@@ -14,7 +14,7 @@ import { FontBackgroundColor, FontColor, FontSize } from '@ckeditor/ckeditor5-fo
 import { Heading } from '@ckeditor/ckeditor5-heading';
 import { HorizontalLine } from '@ckeditor/ckeditor5-horizontal-line';
 import { DataSchema, FullPage, GeneralHtmlSupport } from '@ckeditor/ckeditor5-html-support';
-import { AutoImage, Image, ImageCaption, ImageStyle, ImageToolbar, ImageUpload } from '@ckeditor/ckeditor5-image';
+import { AutoImage, Image, ImageCaption, ImageResizeEditing, ImageResizeHandles, ImageStyle, ImageToolbar, ImageUpload } from '@ckeditor/ckeditor5-image';
 import { Indent, IndentBlock } from '@ckeditor/ckeditor5-indent';
 import { Link, LinkImage } from '@ckeditor/ckeditor5-link';
 import { LegacyList, LegacyListProperties } from '@ckeditor/ckeditor5-list';
@@ -31,7 +31,7 @@ import { Undo } from '@ckeditor/ckeditor5-undo';
 import { EditorWatchdog } from '@ckeditor/ckeditor5-watchdog';
 import { WordCount } from '@ckeditor/ckeditor5-word-count';
 declare class Editor extends ClassicEditor {
-    static builtinPlugins: (typeof Alignment | typeof AutoImage | typeof Autoformat | typeof Bold | typeof CloudServices | typeof DataSchema | typeof Essentials | typeof FindAndReplace | typeof FontBackgroundColor | typeof FontColor | typeof FontSize | typeof FullPage | typeof GeneralHtmlSupport | typeof Heading | typeof HorizontalLine | typeof Image | typeof ImageCaption | typeof ImageStyle | typeof ImageToolbar | typeof ImageUpload | typeof Indent | typeof IndentBlock | typeof Italic | typeof LegacyList | typeof LegacyListProperties | typeof Link | typeof LinkImage | typeof MediaEmbed | typeof MediaEmbedToolbar | typeof Paragraph | typeof PasteFromOffice | typeof SelectAll | typeof ShowBlocks | typeof SourceEditing | typeof Strikethrough | typeof Style | typeof Subscript | typeof Superscript | typeof Table | typeof TableCaption | typeof TableCellProperties | typeof TableColumnResize | typeof TableProperties | typeof TableToolbar | typeof TextTransformation | typeof Underline | typeof Undo | typeof WordCount)[];
+    static builtinPlugins: (typeof Alignment | typeof AutoImage | typeof Autoformat | typeof Bold | typeof CloudServices | typeof DataSchema | typeof Essentials | typeof FindAndReplace | typeof FontBackgroundColor | typeof FontColor | typeof FontSize | typeof FullPage | typeof GeneralHtmlSupport | typeof Heading | typeof HorizontalLine | typeof Image | typeof ImageCaption | typeof ImageStyle | typeof ImageToolbar | typeof ImageUpload | typeof ImageResizeHandles | typeof ImageResizeEditing | typeof Indent | typeof IndentBlock | typeof Italic | typeof LegacyList | typeof LegacyListProperties | typeof Link | typeof LinkImage | typeof MediaEmbed | typeof MediaEmbedToolbar | typeof Paragraph | typeof PasteFromOffice | typeof SelectAll | typeof ShowBlocks | typeof SourceEditing | typeof Strikethrough | typeof Style | typeof Subscript | typeof Superscript | typeof Table | typeof TableCaption | typeof TableCellProperties | typeof TableColumnResize | typeof TableProperties | typeof TableToolbar | typeof TextTransformation | typeof Underline | typeof Undo | typeof WordCount)[];
     static defaultConfig: EditorConfig;
 }
 declare const _default: {

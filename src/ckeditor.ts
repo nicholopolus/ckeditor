@@ -27,6 +27,8 @@ import {
 	AutoImage,
 	Image,
 	ImageCaption,
+	ImageResizeEditing,
+	ImageResizeHandles,
 	ImageStyle,
 	ImageToolbar,
 	ImageUpload
@@ -79,6 +81,8 @@ class Editor extends ClassicEditor {
 		ImageStyle,
 		ImageToolbar,
 		ImageUpload,
+		ImageResizeHandles,
+		ImageResizeEditing,
 		Indent,
 		IndentBlock,
 		Italic,
