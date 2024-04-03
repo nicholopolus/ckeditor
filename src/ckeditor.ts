@@ -81,8 +81,6 @@ class Editor extends ClassicEditor {
 		ImageStyle,
 		ImageToolbar,
 		ImageUpload,
-		ImageResizeHandles,
-		ImageResizeEditing,
 		Indent,
 		IndentBlock,
 		Italic,
@@ -110,7 +108,9 @@ class Editor extends ClassicEditor {
 		TextTransformation,
 		Underline,
 		Undo,
-		WordCount
+		WordCount,
+		ImageResizeEditing,
+		ImageResizeHandles,
 	];
 
 	public static override defaultConfig: EditorConfig = {
