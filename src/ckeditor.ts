@@ -15,6 +15,7 @@ import {
 	Superscript,
 	Underline
 } from '@ckeditor/ckeditor5-basic-styles';
+import { Clipboard } from '@ckeditor/ckeditor5-clipboard';
 import { CloudServices } from '@ckeditor/ckeditor5-cloud-services';
 import type { EditorConfig } from '@ckeditor/ckeditor5-core';
 import { Essentials } from '@ckeditor/ckeditor5-essentials';
@@ -111,6 +112,7 @@ class Editor extends ClassicEditor {
 		WordCount,
 		ImageResizeEditing,
 		ImageResizeHandles,
+		Clipboard
 	];
 
 	public static override defaultConfig: EditorConfig = {
